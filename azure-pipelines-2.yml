@@ -14,8 +14,8 @@ steps:
   inputs:
     mavenPomFile: 'MyWebApp/pom.xml'
     mavenOptions: '-Xmx3072m'
-    javaHomeOption: 'Path'
-    jdkVersionOption: '/usr/lib/jvm/java-17-openjdk-amd64'
+    javaHomeOption:: 'Path'
+    jdkUserInputPath: '/usr/lib/jvm/java-17-openjdk-amd64'
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
